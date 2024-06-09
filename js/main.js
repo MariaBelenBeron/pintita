@@ -178,3 +178,6 @@ function mostrarPartidos(fecha) {
 document.addEventListener("DOMContentLoaded", () => {
     calcularEstadisticas();
 });
+document.addEventListener("DOMContentLoaded", () => {
+    mostrarPartidos('2024-04-01');
+});
